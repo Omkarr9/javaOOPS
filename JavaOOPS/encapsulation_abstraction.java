@@ -28,6 +28,9 @@ abstract class Animal{
     public void talk(){  // normal method
 
     }
+    public void animalMethod2(){
+        System.out.println("This method has an implementation");
+    }
     // abstract classes can also contain constrctors
     Animal(){
         System.out.println("This is a Animal constructor");
