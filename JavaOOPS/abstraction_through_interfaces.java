@@ -15,6 +15,10 @@ interface Animal2{
     int eyes = 2; // this value is static, final and public by default
 
     public void walk(); // this method/function is abstract and public by default so we do not use abstract keyword and public keyword
+
+    default void animalMethod(){   // default methods allows user to have methods with their implementation in the interface
+        System.out.println("This method has an implementation");
+    }
 }
 
 interface Herbivore{
